@@ -1,0 +1,27 @@
+package www.coding.com;
+
+//import jdk.internal.org.jline.terminal.TerminalBuilder.SystemOutput;
+
+public class StringEx1 {
+public static void main(java.lang.String[] args) {
+			// TODO Auto-generated method stub
+			String str= "Well";
+			System.out.println(str);
+			  String str2 ="";
+			  for(int i=str.length()-1;i>=0;i--) {
+		System.out.print(str.charAt(i));
+		if(str.equals(str2)) {
+				 str2 +=str.charAt(i);
+		System.out.println(str2);
+		}
+}
+}
+}
+
+		
+
+
+	
+
+		
+
