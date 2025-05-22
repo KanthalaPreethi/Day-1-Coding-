@@ -1,0 +1,15 @@
+package www.coding.com;
+
+public class Swapping2Numbers1 {
+	public void main(String[] args) {
+		int a=10;
+		int b=20;
+		System.out.println("before swapping "+ a +b);
+		a=a+b;
+		b=a-b;
+		a=a-b;
+		System.out.println("after swapping"+" " +a +" "+b);
+		
+	}
+
+}
