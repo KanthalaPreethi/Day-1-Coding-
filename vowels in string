@@ -1,0 +1,25 @@
+package www.coding.com;
+
+public class vowel1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String s="preethi";
+		System.out.println(s);
+		String c="a,e,i,o,u";
+		for(int i=0;i<=s.length()-1;i++) {
+			char c1=s.charAt(i);
+			 for(int j=0;j<=c.length()-1;j++) {
+				 char c2=c.charAt(j);
+				 if(c1==c2) {
+					 System.out.println(c1);
+				 }
+			 }
+				
+			}
+				
+			
+		}
+
+	}
+
