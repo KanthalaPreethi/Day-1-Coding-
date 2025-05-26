@@ -1,0 +1,33 @@
+package www.coding.com;
+
+public class PrimeNumber1 {
+
+	public static void main(String[] args) {
+		
+			
+				int i = 7		;
+
+				if (i <= 1) {
+					System.out.println("given number is not prime");
+				} else {
+					boolean isPrime = true;
+
+					for (int j = 2; j <= i / 2; j++) {
+						if (i % j == 0) {
+							isPrime = false;
+							break;
+						}
+					}
+
+					if (isPrime) {
+						System.out.println("given number is prime");
+					} else {
+						System.out.println("given number is not prime");
+					}
+				}
+			}
+		
+
+
+	}
+
