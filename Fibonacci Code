@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class FibonacciExample{
+public static void main(String[] args){
+Scanner sc=new Scanner(System.in);
+System.out.println("Enter the number of terms:");
+int num=6;
+int first=0,second=1,next;
+
+System.out.println("Before Fibonacci" +" "+ first +" "+second);
+
+for(int i=0;i<=num;i++){
+System.out.print(first+" ");
+next=first+second;
+first=second;
+second=next;
+}
+sc.close();
+
+}
+}
